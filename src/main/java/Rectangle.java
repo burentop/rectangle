@@ -18,4 +18,8 @@ public class Rectangle {
   public int getWidth() {
     return mWidth;
   }
+
+  public int area() {
+    return mLength * mWidth;
+  }
 }
